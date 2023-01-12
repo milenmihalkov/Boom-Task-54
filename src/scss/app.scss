@@ -31,7 +31,8 @@ html {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
-  grid-gap:1rem;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
 }
 .con{
   background-color: red;
